@@ -6,7 +6,7 @@ jobs:
     strategy:
     matrix:
     os: [ubuntu-latest, ubuntu-20.04]
-  steps:
+steps:
     - name: echo a string
     run: echo "Hello World"
     - name: multiline scritp
