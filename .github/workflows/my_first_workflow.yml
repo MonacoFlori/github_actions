@@ -1,8 +1,7 @@
 name: Shell commands
 
-on:
-  push:
-    # This workflow will be triggered on push events
+on: [push]
+    
 
 jobs:
   run-shell-command:
